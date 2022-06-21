@@ -340,7 +340,6 @@ const uniqueNumber = (maxVal, excluded) => {
     const number = Math.floor(Math.random() * maxVal);
     const cell = bombs[Math.floor(excluded/20)][excluded%20];
     let neighbours = getNeighbours(cell).map(x => parseInt(x.link.id));
-    console.log(neighbours);
     if ((!numbers.includes(number)) && (number != excluded) && (!neighbours.includes(number))) {
        numbers.push(number);
        return number;
