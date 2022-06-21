@@ -1,0 +1,47 @@
+h1 
+{
+    text-align: center;
+}
+
+#game 
+{
+    margin: 0 auto;
+    border-spacing: 1px;
+}
+
+td.active:hover
+{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+td
+{
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    font-size: 22px;
+}
+
+#container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#reset
+{
+    background-color: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h2
+{
+    
+}
